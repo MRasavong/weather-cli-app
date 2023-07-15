@@ -1,0 +1,19 @@
+{
+  "name": "weather-cli-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["forecast", "weather"],
+  "author": "MRasavong",
+  "license": "ISC",
+  "description": "A CLI app that gives real-time weather forecasts.",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
