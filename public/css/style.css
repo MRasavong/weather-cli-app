@@ -4,15 +4,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* This will format the whole fieldset content*/
-
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
-/* This will format the whole fieldset content*/
-
+/* Format the whole fieldset content*/
 fieldset {
   display: block;
   -webkit-margin-start: 0px;
