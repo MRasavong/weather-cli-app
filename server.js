@@ -26,7 +26,7 @@ app.get('/', function(req, res) {
     res.render('index', { weather: null, error: null });
 });
 
-// On a post request, the app shall data from OpenWeatherMap using the given arguments
+// On a post request, the app shall fetch data from OpenWeatherMap using the given arguments
 app.post('/', function(req, res) {
 
     // Get city name passed in the form
